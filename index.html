@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Singularity Forge</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+        .medieval-font { font-family: 'MedievalSharp', cursive; }
+    </style>
+</head>
+<body class="bg-gray-900 text-gray-200">
+    <!-- Hero Section -->
+    <header class="relative h-screen flex items-center justify-center">
+        <div class="absolute inset-0 bg-black opacity-50"></div>
+        <img src="assets/images/forge-flames.jpg" alt="Forge in Action" class="absolute inset-0 w-full h-full object-cover">
+        <div class="relative z-10 text-center">
+            <h1 class="medieval-font text-6xl mb-4">Singularity Forge</h1>
+            <p class="text-xl">Crafting Excellence Through Fire and Steel</p>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="sticky top-0 bg-gray-800 z-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-between h-16">
+                <div class="flex space-x-8 items-center">
+                    <a href="#forge" class="text-gray-300 hover:text-white">The Forge</a>
+                    <a href="#process" class="text-gray-300 hover:text-white">Process</a>
+                    <a href="#projects" class="text-gray-300 hover:text-white">Projects</a>
+                    <a href="#techniques" class="text-gray-300 hover:text-white">Techniques</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Forge Setup Section -->
+    <section id="forge" class="py-20 bg-gray-800">
+        <div class="max-w-7xl mx-auto px-4">
+            <h2 class="medieval-font text-4xl mb-8">The Forge</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-700 p-6 rounded-lg">
+                    <img src="assets/images/forge-setup-full.jpg" alt="Complete Forge Setup" class="w-full h-64 object-cover rounded-lg mb-4">
+                    <h3 class="text-xl mb-2">Workshop Setup</h3>
+                    <p class="text-gray-400">Complete forging station with propane forge and essential tools.</p>
+                </div>
+                <div class="bg-gray-700 p-6 rounded-lg">
+                    <img src="assets/images/forge-flames.jpg" alt="Forge in Action" class="w-full h-64 object-cover rounded-lg mb-4">
+                    <h3 class="text-xl mb-2">The Fire Within</h3>
+                    <p class="text-gray-400">High-temperature propane forge in action.</p>
+                </div>
+                <div class="bg-gray-700 p-6 rounded-lg">
+                    <img src="assets/images/anvil-setup.jpg" alt="Anvil Setup" class="w-full h-64 object-cover rounded-lg mb-4">
+                    <h3 class="text-xl mb-2">Anvil Station</h3>
+                    <p class="text-gray-400">Professional-grade anvil mounted on custom stand.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section id="process" class="py-20 bg-gray-900">
+        <div class="max-w-7xl mx-auto px-4">
+            <h2 class="medieval-font text-4xl mb-8">Forging Process</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="bg-gray-800 p-6 rounded-lg">
+                    <img src="assets/images/raw-steel.jpg" alt="Raw Steel" class="w-full h-64 object-cover rounded-lg mb-4">
+                    <h3 class="text-xl mb-2">Raw Materials</h3>
+                    <p class="text-gray-400">Starting with quality steel stock.</p>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-lg">
+                    <img src="assets/images/blacksmith-action.jpg" alt="Forging in Action" class="w-full h-64 object-cover rounded-lg mb-4">
+                    <h3 class="text-xl mb-2">Heat Treatment</h3>
+                    <p class="text-gray-400">Working the metal at optimal temperature.</p>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-lg">
+                    <img src="assets/images/knife-blade-profile-1.jpg" alt="Blade Profiling" class="w-full h-64 object-cover rounded-lg mb-4">
+                    <h3 class="text-xl mb-2">Shaping</h3>
+                    <p class="text-gray-400">Creating the blade profile and geometry.</p>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-lg">
+                    <img src="assets/images/completed-knife-anvil.jpg" alt="Finished Blade" class="w-full h-64 object-cover rounded-lg mb-4">
+                    <h3 class="text-xl mb-2">Completion</h3>
+                    <p class="text-gray-400">Final blade with handle fitting.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Gallery -->
+    <section id="projects" class="py-20 bg-gray-800">
+        <div class="max-w-7xl mx-auto px-4">
+            <h2 class="medieval-font text-4xl mb-8">Latest Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-gray-700 p-6 rounded-lg">
+                    <img src="assets/images/knife-blade-raw.jpg" alt="Blade Creation" class="w-full h-96 object-cover rounded-lg mb-4">
+                    <h3 class="text-xl mb-2">Traditional Hunting Knife</h3>
+                    <p class="text-gray-400">Full tang construction with wooden handle.</p>
+                </div>
+                <div class="bg-gray-700 p-6 rounded-lg">
+                    <img src="assets/images/lawn-mower-blades.jpg" alt="Repurposed Steel" class="w-full h-96 object-cover rounded-lg mb-4">
+                    <h3 class="text-xl mb-2">Steel Recycling</h3>
+                    <p class="text-gray-400">Transforming lawn mower blades into new tools.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Techniques Section -->
+    <section id="techniques" class="py-20 bg-gray-900">
+        <div class="max-w-7xl mx-auto px-4">
+            <h2 class="medieval-font text-4xl mb-8">Essential Tools & Techniques</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-gray-800 p-6 rounded-lg">
+                    <img src="assets/images/forge-tongs-tools.jpg" alt="Forging Tools" class="w-full h-64 object-cover rounded-lg mb-4">
+                    <h3 class="text-xl mb-2">Hand Tools</h3>
+                    <p class="text-gray-400">Specialized tongs and hammers for precise control.</p>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-lg">
+                    <img src="assets/images/forging-action.jpg" alt="Forging Technique" class="w-full h-64 object-cover rounded-lg mb-4">
+                    <h3 class="text-xl mb-2">Hammer Work</h3>
+                    <p class="text-gray-400">Precise striking techniques for shaping metal.</p>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-lg">
+                    <img src="assets/images/forge-fire-night.jpg" alt="Night Forging" class="w-full h-64 object-cover rounded-lg mb-4">
+                    <h3 class="text-xl mb-2">Heat Control</h3>
+                    <p class="text-gray-400">Managing temperature for optimal metalworking.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 py-8">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <p>© 2024 Singularity Forge. Crafting Excellence Through Fire and Steel.</p>
+        </div>
+    </footer>
+</body>
+</html>
